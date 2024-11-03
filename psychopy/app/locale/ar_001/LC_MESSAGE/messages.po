@@ -4842,12 +4842,12 @@ msgstr "لا يمكن أن تحتوي المتغيرات على علامات ت�
 #: psychopy/data/utils.py:296
 #, python-format
 msgid "Conditions file %s: Missing parameter name(s); empty cell(s) in the first row?"
-msgstr "ملف المثيرات %s: هناك اسم أو أسماء معلمات مفقودة؛ هل توجد خلايا فارغة في الصف الأول؟"
+msgstr "ملف الاشراطات %s: هناك اسم أو أسماء معلمات مفقودة؛ هل توجد خلايا فارغة في الصف الأول؟"
 
 #: psychopy/data/utils.py:316
 #, python-format
 msgid "Conditions file not found: %s"
-msgstr "ملف المثيرات غير موجود: %s"
+msgstr "ملف الاشراطات غير موجود: %s"
 
 #: psychopy/data/utils.py:377
 msgid "openpyxl or xlrd is required for loading excel files, but neither was found."
@@ -4856,11 +4856,11 @@ msgstr "مطلوب وجود openpyxl أو xlrd لتحميل ملفات excel، �
 #: psychopy/data/utils.py:452
 #, python-format
 msgid "Could not open %s as conditions"
-msgstr "تعذر فتح %s كملف مثيرات"
+msgstr "تعذر فتح %s كملف اشراطات"
 
 #: psychopy/data/utils.py:471
 msgid "Your conditions file should be an xlsx, csv, dlm, tsv or pkl file"
-msgstr "يجب أن يكون ملف المثيرات الخاص بك بصيغة xlsx أو csv أو dlm أو tsv أو pkl"
+msgstr "يجب أن يكون ملف الاشراطات الخاص بك بصيغة xlsx أو csv أو dlm أو tsv أو pkl"
 
 # تم إعطاء شروط الاستيراد() بعض "المؤشرات" ولكن لم يتمكن من تحليلها
 #: psychopy/data/utils.py:484
@@ -4956,7 +4956,7 @@ msgstr "حفظ أوقات البداية/النهاية"
 
 #: psychopy/experiment/components/_base.py:113
 msgid "Synchronize times with screen refresh (good for visual stimuli and responses based on them)"
-msgstr "مزامنة الأوقات مع تحديث الشاشة (مفيد للتحفيزات البصرية والاستجابات المرتبطة بها)"
+msgstr "مزامنة الأوقات مع تحديث الشاشة (مفيد للمثيرات البصرية والاستجابات المرتبطة بها)"
 
 #: psychopy/experiment/components/_base.py:118
 msgid "Sync timing with screen refresh"
@@ -4973,7 +4973,7 @@ msgstr "عطيل المكون"
 #: psychopy/experiment/components/_base.py:977 psychopy/experiment/routines/eyetracker_calibrate/__init__.py:119
 #: psychopy/experiment/routines/eyetracker_validate/__init__.py:162
 msgid "Units of dimensions for this stimulus"
-msgstr "وحدات الأبعاد لهذا المحفز"
+msgstr "وحدات الأبعاد لهذا المثير"
 
 #: psychopy/experiment/components/_base.py:983 psychopy/experiment/routines/eyetracker_calibrate/__init__.py:120
 #: psychopy/experiment/routines/eyetracker_validate/__init__.py:163
@@ -4982,7 +4982,7 @@ msgstr "الوحدات المكانية"
 
 #: psychopy/experiment/components/_base.py:985
 msgid "Foreground color of this stimulus (e.g. $[1,1,0], red )"
-msgstr "لون المقدمة لهذا المحفز (على سبيل المثال $[1,1,0]، أحمر)"
+msgstr "لون المقدمة لهذا المثير (على سبيل المثال $[1,1,0]، أحمر)"
 
 #: psychopy/experiment/components/_base.py:992
 msgid "Foreground color"
@@ -5003,7 +5003,7 @@ msgstr "مساحة اللون"
 
 #: psychopy/experiment/components/_base.py:1003
 msgid "Fill color of this stimulus (e.g. $[1,1,0], red )"
-msgstr "لون تعبئة هذا المحفز (على سبيل المثال $[1,1,0]، أحمر)"
+msgstr "لون تعبئة هذا المثير (على سبيل المثال $[1,1,0]، أحمر)"
 
 #: psychopy/experiment/components/_base.py:1009 psychopy/experiment/components/polygon/__init__.py:18
 msgid "Fill color"
@@ -5011,7 +5011,7 @@ msgstr "لون التعبئة"
 
 #: psychopy/experiment/components/_base.py:1011
 msgid "Border color of this stimulus (e.g. $[1,1,0], red )"
-msgstr "لون حدود هذا المحفز (على سبيل المثال $[1,1,0]، أحمر)"
+msgstr "لون حدود هذا المثير (على سبيل المثال $[1,1,0]، أحمر)"
 
 #: psychopy/experiment/components/_base.py:1017 psychopy/experiment/components/progress/__init__.py:55
 msgid "Border color"
@@ -5022,7 +5022,7 @@ msgid ""
 "Opacity of the stimulus (1=opaque, 0=fully transparent, 0.5=translucent). Leave blank for each color to have "
 "its own opacity (recommended if any color is None)."
 msgstr ""
-"عتامة المحفز (1 = غير شفاف، 0 = شفاف تمامًا، 0.5 = نصف شفاف). اتركه فارغًا لتحديد عتامة خاصة بكل لون (موصى به "
+"عتامة المثير (1 = غير شفاف، 0 = شفاف تمامًا، 0.5 = نصف شفاف). اتركه فارغًا لتحديد عتامة خاصة بكل لون (موصى به "
 "إذا كانت أي من الألوان غير محددة)."
 
 #: psychopy/experiment/components/_base.py:1026 psychopy/localization/_localization.py:172
@@ -5034,7 +5034,7 @@ msgid ""
 "Contrast of the stimulus (1.0=unchanged contrast, 0.5=decrease contrast, 0.0=uniform/no contrast, "
 "-0.5=slightly inverted, -1.0=totally inverted)"
 msgstr ""
-"تباين المحفز (1.0 = تباين غير متغير، 0.5 = تقليل التباين، 0.0 = تباين موحد/بدون تباين، -0.5 = مقلوب قليلاً، "
+"تباين المثير (1.0 = تباين غير متغير، 0.5 = تقليل التباين، 0.0 = تباين موحد/بدون تباين، -0.5 = مقلوب قليلاً، "
 "-1.0 = مقلوب تماماً)"
 
 #: psychopy/experiment/components/_base.py:1036 psychopy/localization/_localization.py:171
@@ -5043,7 +5043,7 @@ msgstr "التباين"
 
 #: psychopy/experiment/components/_base.py:1038 psychopy/experiment/components/ratingScale/__init__.py:204
 msgid "Position of this stimulus (e.g. [1,2] )"
-msgstr "موضع هذا المحفز (على سبيل المثال [1،2] )"
+msgstr "موضع هذا المثير (على سبيل المثال [1،2] )"
 
 #: psychopy/experiment/components/_base.py:1044 psychopy/experiment/components/ratingScale/__init__.py:26
 #: psychopy/experiment/components/ratingScale/__init__.py:205 psychopy/localization/_localization.py:173
@@ -5052,7 +5052,7 @@ msgstr "الموضع [س، ص]"
 
 #: psychopy/experiment/components/_base.py:1046 psychopy/experiment/components/ratingScale/__init__.py:196
 msgid "Size of this stimulus (either a single value or x,y pair, e.g. 2.5, [1,2] "
-msgstr "حجم هذا المحفز (إما قيمة واحدة أو زوج x، y، على سبيل المثال 2.5، [1،2] "
+msgstr "حجم هذا المثير (إما قيمة واحدة أو زوج x، y، على سبيل المثال 2.5، [1،2] "
 
 #: psychopy/experiment/components/_base.py:1053 psychopy/experiment/components/polygon/__init__.py:22
 #: psychopy/localization/_localization.py:175
@@ -5061,7 +5061,7 @@ msgstr "الحجم [عرض، ارتفاع]"
 
 #: psychopy/experiment/components/_base.py:1059
 msgid "Orientation of this stimulus (in deg)"
-msgstr "اتجاه هذا المحفز (بالدرجات)"
+msgstr "اتجاه هذا المثير (بالدرجات)"
 
 #: psychopy/experiment/components/_base.py:1060 psychopy/localization/_localization.py:174
 msgid "Orientation"
@@ -5069,7 +5069,7 @@ msgstr "الاتجاه"
 
 #: psychopy/experiment/components/aperture/__init__.py:28
 msgid "Aperture: restrict the drawing of stimuli to a given region"
-msgstr "الفتحة: قصر رسم المحفزات على منطقة معينة"
+msgstr "الفتحة: قصر رسم المثيرات على منطقة معينة"
 
 #: psychopy/experiment/components/aperture/__init__.py:51
 msgid "How big is the aperture? (a single number for diameter)"
@@ -5889,7 +5889,7 @@ msgstr "التردد المكاني لتكرار الصورة عبر الشبك�
 #: psychopy/experiment/components/movie/__init__.py:127 psychopy/experiment/components/polygon/__init__.py:103
 #: psychopy/experiment/components/progress/__init__.py:93 psychopy/experiment/components/textbox/__init__.py:169
 msgid "Which point on the stimulus should be anchored to its exact position?"
-msgstr "أي نقطة على المحفز يجب تثبيتها في موقعها الدقيق؟"
+msgstr "أي نقطة على المثير يجب تثبيتها في موقعها الدقيق؟"
 
 # "التوزيع المكاني للصورة على الشبكة (يتكرر في النطاق من 0 إلى 1.0)"
 #: psychopy/experiment/components/grating/__init__.py:98
@@ -6029,7 +6029,7 @@ msgstr ""
 #: psychopy/experiment/components/joyButtons/__init__.py:112
 #: psychopy/experiment/components/keyboard/__init__.py:138
 msgid "A reaction time to a visual stimulus should be based on when the screen flipped"
-msgstr "يجب أن يستند وقت الاستجابة للمحفز البصري إلى توقيت تغيير الشاشة"
+msgstr "يجب أن يستند وقت الاستجابة للمثير البصري إلى توقيت تغيير الشاشة"
 
 #: psychopy/experiment/components/joyButtons/__init__.py:118
 msgid "Sync RT with screen"
@@ -6052,7 +6052,7 @@ msgstr "إنهاء الروتين عند الضغط"
 #: psychopy/experiment/components/joystick/__init__.py:20 psychopy/experiment/components/joystick/__init__.py:97
 #: psychopy/experiment/components/mouse/__init__.py:18 psychopy/experiment/components/mouse/__init__.py:105
 msgid "Clickable stimuli"
-msgstr "المحفزات القابلة للنقر"
+msgstr "المثيرات القابلة للنقر"
 
 # تخزين المعلمات للضغطات
 #: psychopy/experiment/components/joystick/__init__.py:21
@@ -6090,7 +6090,7 @@ msgstr "ما الذي يجب أن تكون القيم الخاصة بـ joystick
 #: psychopy/experiment/components/joystick/__init__.py:89 psychopy/experiment/components/mouse/__init__.py:97
 msgid ""
 "A comma-separated list of your stimulus names that can be \"clicked\" by the participant. e.g. target, foil"
-msgstr "قائمة مفصولة بفواصل بأسماء المحفزات التي يمكن للمتسابق 'النقر' عليها. مثل: الهدف، العينة"
+msgstr "قائمة مفصولة بفواصل بأسماء المثير التي يمكن للمتسابق 'النقر' عليها. مثل: الهدف، العينة"
 
 # og trans: البارامترات (مثل الاسم، النص)، التي تريد تخزين القيمة الحالية للمحفز الذي تم "النقر عليه" بواسطة عصا التحكم. تأكّد من أن جميع الكائنات القابلة للنقر تحتوي على جميع هذه البارامترات.
 #: psychopy/experiment/components/joystick/__init__.py:99
@@ -6098,7 +6098,7 @@ msgid ""
 "The params (e.g. name, text), for which you want to store the current value, for the stimulus that "
 "was\"clicked\" by the joystick. Make sure that all the clickable objects have all these params."
 msgstr ""
-"المعلمات (مثل الاسم، النص) التي تريد تخزين قيمتها الحالية، للمحفز الذي تم 'النقر' عليه بواسطةعصا التحكم تأكد "
+"المعلمات (مثل الاسم، النص) التي تريد تخزين قيمتها الحالية، للمثير الذي تم 'النقر' عليه بواسطة عصا التحكم تأكد "
 "من أن جميع العناصر القابلة للنقر تحتوي على جميع هذه المعلمات."
 
 # الأزرار التي يجب قراءتها (فارغ لأي زر) أرقام مفصولة بفواصل
@@ -6267,7 +6267,7 @@ msgid ""
 "The params (e.g. name, text), for which you want to store the current value, for the stimulus that "
 "was\"clicked\" by the mouse. Make sure that all the clickable objects have all these params."
 msgstr ""
-"البارامترات (مثل الاسم، والنص)، التي تريد تخزين القيمة الحالية للمحفز الذي تم \"النقر\" عليه بواسطة الفأرة. "
+"البارامترات (مثل الاسم، والنص)، التي تريد تخزين القيمة الحالية للمثير الذي تم \"النقر\" عليه بواسطة الفأرة. "
 "تأكد من أن جميع الكائنات القابلة للنقر تحتوي على جميع هذه البارامترات."
 
 # Area: مساحة/ منطقة
@@ -6510,7 +6510,7 @@ msgstr "البيانات التي سيتم إرسالها في \"النهاية"
 
 #: psychopy/experiment/components/parallelOut/__init__.py:87
 msgid "If the parallel port data relates to visual stimuli then sync its pulse to the screen refresh"
-msgstr "إذا كانت بيانات المنفذ المتوازي تتعلق بمحفزات بصرية، فقم بمزامنة نبضها مع تحديث الشاشة"
+msgstr "إذا كانت بيانات المنفذ المتوازي تتعلق بمثيرات بصرية، فقم بمزامنة نبضها مع تحديث الشاشة"
 
 # og trans: صورة/فهرس
 #: psychopy/experiment/components/patch/__init__.py:14 psychopy/experiment/components/patch/__init__.py:57
@@ -6584,7 +6584,7 @@ msgid ""
 "h] is as expected,\n"
 " but for higher-order polygons it represents the [w,h] of the ellipse that the polygon sits on!! "
 msgstr ""
-"حجم هذا المحفز [w، h]. لاحظ أنه بالنسبة للخط المستقيم يتم استخدام القيمة الأولى فقط، أما بالنسبة للمثلث "
+"حجم هذا المثير [w، h]. لاحظ أنه بالنسبة للخط المستقيم يتم استخدام القيمة الأولى فقط، أما بالنسبة للمثلث "
 "والمستطيل فإن [w، h] كما هو متوقع,\n"
 " أما بالنسبة للمضلعات ذات الرتب الأعلى، فهي تمثل [w، h] للمقطع الناقص الذي يقع عليه المضلع "
 
