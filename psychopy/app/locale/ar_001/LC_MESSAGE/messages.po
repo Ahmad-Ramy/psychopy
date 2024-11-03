@@ -4543,15 +4543,15 @@ msgstr "التأخير غير مهم"
 msgid "Share low-latency driver"
 msgstr "مشاركة برنامج التشغيل منخفض التأخير"
 
+# زمن الاستجابة المنخفض الحصري
 #: psychopy/app/preferencesDlg.py:184 psychopy/experiment/components/settings/__init__.py:304
-#, fuzzy
 msgid "Exclusive low-latency"
-msgstr "زمن الاستجابة المنخفض الحصري"
+msgstr "زمن استجابة منخفض حصري"
 
+# زمن الاستجابة المنخفض العدواني
 #: psychopy/app/preferencesDlg.py:185 psychopy/experiment/components/settings/__init__.py:305
-#, fuzzy
 msgid "Aggressive low-latency"
-msgstr "زمن الاستجابة المنخفض العدواني"
+msgstr "زمن استجابة منخفض بشدة"
 
 #: psychopy/app/preferencesDlg.py:186 psychopy/experiment/components/settings/__init__.py:306
 #, fuzzy
